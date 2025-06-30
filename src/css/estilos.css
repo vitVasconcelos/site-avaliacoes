@@ -1,0 +1,112 @@
+:root{
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("/src/imagens/bg-pattern-top-desktop.svg");
+    font-family: "League Spartan", sans-serif;
+    display: flex;
+    min-height: 1440px;
+
+}
+
+.descricao{
+    height: 300px;
+    width: 400px;
+    display: block;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.descricao h1{
+    color: var(--Very-Dark-Magenta);
+    font-weight: 800;
+    margin: 20% 10px 20px;
+    font-size: 45px;
+    padding: 2px;
+}
+.descricao p{
+    margin-left: 10px;
+    color: var(--Dark-Grayish-Magenta);
+    font-weight: 600;
+}
+.avaliacoes{
+    margin-top: -200px;
+    margin-left: 70%;
+}
+.avaliacoes div{
+    border-radius: 10px;
+    width: 350px;
+    padding: 15px 20px 15px 20px;
+    background-color:  #f7f2f8;
+}
+.avaliacoes img{
+    width: 15px;
+}
+.avaliacoes span{
+    margin-left: 20px;
+    font-weight: bold;
+    color: var(--Very-Dark-Magenta);
+    font-size: 15px;
+}
+.av1{
+    margin-bottom: 10px;
+
+}
+.av2{
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+.av3{
+    margin-left: 80px;
+}
+
+.clientes{
+   margin-top: 80px;
+   display: flex;
+   flex-direction: row;
+   margin-left: 20%;
+   width: 1000px;
+}
+.clientes .cliente1, .cliente2, .cliente3{
+    width: 280px;
+    height: 200px;
+    margin-left: 20px;
+    background-color: var(--Very-Dark-Magenta);
+    color: var(--White);
+    border-radius: 10px;
+    padding: 30px;
+}
+.clientes img{
+    border-radius: 50%;
+    width: 40px;
+    margin-bottom: 20px;
+}
+.clientes h3{
+    margin-top: -60px;
+    margin-left: 60px;
+    font-size: 15px;
+}
+.clientes h3 span{
+    color: var(--Soft-Pink);
+    font-weight: lighter;
+}
+.clientes p{
+    margin-top: 30px;
+    text-align: justify;
+    font-weight: 350;
+    font-size: 15px;
+}
+.clientes .cliente2{
+    margin-top: 20px;
+}
+.clientes .cliente3{
+    margin-top: 40px;
+}
