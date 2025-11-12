@@ -2,7 +2,7 @@
     body {
       flex-direction: column;
       padding: 20px;
-      background-image: url("/src/imagens/bg-pattern-top-mobile.svg"); 
+      background-image: url("../imagens/bg-pattern-top-mobile.svg"); 
     }
   
     .container {

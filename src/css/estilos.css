@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("/src/imagens/bg-pattern-top-desktop.svg");
+    background-image: url("../imagens/bg-pattern-top-desktop.svg");
     font-family: "League Spartan", sans-serif;
     display: flex;
     min-height: 1440px;
